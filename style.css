@@ -1,5 +1,40 @@
 *{
     margin: o;
     font-family: 'Open Sans', sans-serif;
-    padding: o;
+                padding: o;
 }
+ /* nab er kaj */
+ nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+ }
+ .nav-title{
+    font-size: 45px;
+    font-weight: 800;
+ }
+ .text-primary{
+    color: orange;
+ }
+
+ nav li{
+    list-style: none;
+    margin-left: 50px;
+    
+ }
+ nav ul{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    
+ }
+ .btn-primary{
+    border-radius: 5px;
+    width: 150px;
+    color: aliceblue;
+    background-color: orange;
+    font-size: 20px;
+    font-weight: 700px;
+    height: 64px;
+    border: 0;
+ }
