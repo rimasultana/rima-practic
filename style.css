@@ -3,6 +3,15 @@
     font-family: 'Open Sans', sans-serif;
                 padding: o;
 }
+header{
+    background-color: #FFF8F3;
+    background-image: url('photo/3.png'),url('photo/2.png');
+    background-repeat: no-repeat;
+    background-position: right bottom ,left ;
+}
+
+
+
  /* nab er kaj */
  nav{
     display: flex;
@@ -32,9 +41,55 @@
     border-radius: 5px;
     width: 150px;
     color: aliceblue;
-    background-color: orange;
+    background-color: #FD6E0A;
     font-size: 20px;
     font-weight: 700px;
     height: 64px;
     border: 0;
  }
+        /* banner */
+
+        .banner{
+            display: flex;
+            align-items: center;
+            margin: 0 150px;
+
+        }
+        .banner-sub-titile{
+            font-size: 45px;
+            font-weight: 600;
+
+        }
+        .banner-title{
+            font-weight: 700;
+            font-size: 85;
+            color:#181818;
+            
+        }
+        .banner-description{
+            font-size: 18px;
+            font: 400;
+           
+        }
+        .bn-primary{
+            border-radius: 5px;
+            width: 150px;
+            color: aliceblue;
+            background-color:#FD6E0A;
+            font-size: 20px;
+            font-weight: 700px;
+            height: 64px;
+            border: 0;
+            margin-top: 20px;
+         }
+         .bt-primary{
+            color: #FD6E0A;
+            font-size: 20px;
+            width: 160px;
+            height: 64px;
+            border-radius: 5px;
+            padding: 10px 18px;
+     
+            border:1px solid #FD6E0A;
+         }
+        
